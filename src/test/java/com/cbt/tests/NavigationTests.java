@@ -34,7 +34,7 @@ public class NavigationTests {
         System.out.print("Previous and current title of Etsy page test  ) : ");
         StringUtility.verifyEquals(actualTitleOfEtsy, driver.getTitle());
         driver.quit();
-        System.out.println("Hey");
+
     }
 
     public static void testWithFirefox(){
