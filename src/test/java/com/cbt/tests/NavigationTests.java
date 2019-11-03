@@ -31,9 +31,10 @@ public class NavigationTests {
         System.out.print("Previous and current title of Google page test : ");
         StringUtility.verifyEquals(actualTitleOfGoogle, driver.getTitle());
         driver.navigate().forward();
-        System.out.print("Previous and current title of Etsy page test   : ");
+        System.out.print("Previous and current title of Etsy page test  ) : ");
         StringUtility.verifyEquals(actualTitleOfEtsy, driver.getTitle());
         driver.quit();
+        System.out.println("Hey");
     }
 
     public static void testWithFirefox(){
